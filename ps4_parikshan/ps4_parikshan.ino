@@ -41,7 +41,7 @@ class Motor{
   Motor(int ENPin, int dPin){
     enablePin=ENPin;
     directionPin=dPin;
-  };
+  }
 
   void Drive(int speed){
     
